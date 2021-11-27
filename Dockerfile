@@ -10,9 +10,9 @@ RUN yarn install
 
 RUN yarn global add @vue/cli
 
-# コンテナ作成後にコマンド実行
 #CMD [ "node", "server.js" ]
 
 WORKDIR /app/vue_project
 
+# コンテナ作成後にコマンド実行
 CMD ["yarn", "serve"]
