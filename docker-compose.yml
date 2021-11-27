@@ -7,4 +7,4 @@ services:
       - ./src:/app
     tty: true
     ports:
-      - 8888:8888
+      - 8080:8080
