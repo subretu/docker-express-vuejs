@@ -9,8 +9,6 @@
 
   COPY ./src/package.json ./src/yarn.lock ./src/server.js ./
 
-  COPY ./src/vue_project/ ./vue_project
-
   RUN yarn install
 
   RUN yarn global add @vue/cli
